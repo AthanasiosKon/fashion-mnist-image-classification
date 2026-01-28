@@ -31,7 +31,7 @@ def main():
     plt.show()
 
     model.evaluate(X_test, y_test)
-    model.save_weights("model_weights.h5")
+    model.save_weights("model.weights.h5")
     model.save("model.h5")
 
 if __name__ == "__main__":
