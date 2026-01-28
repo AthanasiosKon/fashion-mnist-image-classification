@@ -9,7 +9,7 @@ from data import load_data
 X_train, y_train, X_valid, y_valid, X_test, y_test = load_data()
 
 model = build_model()
-model.load_weights("model_weights.h5")  # αν έχεις αποθηκεύσει βάρη, αλλιώς τρέξε train.py πρώτα
+model.load_weights("model.weights.h5")  # αν έχεις αποθηκεύσει βάρη, αλλιώς τρέξε train.py πρώτα
 
 # -------------------------------
 # Class names definition
